@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping SYSTEM
+        "classpath://org/hibernate/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.github.f0rk777.model.URShift" table="URSHIFT">
+        <id name="ID" type="java.lang.Integer">
+            <column name="ID"/>
+            <generator class="increment"/>
+        </id>
+        <property name="i" type="int">
+            <column name="VAR1"/>
+        </property>
+    </class>
+</hibernate-mapping>
